@@ -1,0 +1,9 @@
+extends layouts/main
+
+block content
+    main
+        form(action="/users", method="post")
+            div
+                label(for="name") Name
+                input#name(type="text", name="name")
+            button(type="submit") Add user

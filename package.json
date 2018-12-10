@@ -1,0 +1,19 @@
+{
+  "name": "assignment_4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dmitrymarokhonov/nodejs_sample_project_01.git",
+  "author": "dmitry.marokhonov <dmitry.marokhonov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
