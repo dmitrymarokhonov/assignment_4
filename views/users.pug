@@ -1,11 +1,7 @@
-extends layouts/main
-block styles
-    link(rel="stylesheet", href="/css/users.css")
+extends layouts/main-layout.pug
+
 block content
-    main
-        if users.length > 0
-            ul.users-list
-                each user in users
-                    li #{user.name}
-        else
-            h1 No users
+    h1 Users
+    ul
+        each user in users
+            li #{user.name}
